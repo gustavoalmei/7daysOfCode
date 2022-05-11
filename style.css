@@ -17,12 +17,12 @@ header {
 }
 
 header .container {
-  width: 80%;
+  width: 100%;
   margin: auto;
-  padding: 0 32px;
+  padding: 0 50px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 header .logo-tip {
@@ -70,10 +70,44 @@ header .buttons a{
 }
 
 header .buttons .bttn{
-    padding: 15px;
+    padding: 15px 20px;
     color: #fff;
     background-color: #8E2424;
     border-radius: 10px;
     border:none;
     cursor: pointer;
+}
+
+header .container-about {
+  width: 100%;
+}
+
+header .content-about{
+  width: 100%;
+  margin: auto;
+  padding: 96px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+header .content-about span{
+  color: #8E2424;
+  font-weight: 600;
+}
+
+header .content-about h1{
+  color: #000;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+
+header .content-about p{
+  color: #667085;
+  font-weight: 500;
+  width: 791px;
+  margin: auto;
 }
