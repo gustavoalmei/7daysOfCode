@@ -2,8 +2,8 @@
  Desafio de 7 dias praticando HTML CSS
 
 - Dia 1 :heavy_check_mark:
-- Dia 2
-- Dia 3
+- Dia 2 :heavy_check_mark:
+- Dia 3 :heavy_check_mark:
 - Dia 4
 - Dia 5 
 - Dia 6

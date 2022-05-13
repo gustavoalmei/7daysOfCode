@@ -111,3 +111,37 @@ header .content-about p{
   width: 791px;
   margin: auto;
 }
+
+header .container-about .metrics{
+  width: 100%;
+  margin: auto;
+  padding: 0 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header .container-about .metrics .box{
+  width: 280px;
+}
+
+header .container-about .metrics .box .number{
+  color: #8E2424;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+header .container-about .metrics .box p:nth-child(2){
+  color: #101828;
+  font-weight: 600;
+  margin: 15px 0 10px 0;
+}
+
+header .container-about .metrics .box p:nth-child(3){
+  color: #667085;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: .5px;
+  font-size: 14px;
+  word-break: keep-all;
+}
