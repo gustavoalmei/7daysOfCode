@@ -32,116 +32,198 @@ header .logo-tip {
   cursor: pointer;
 }
 
-header .logo-tip h1{
-    font-weight: 600;
-    color: #3a404e;
-    margin-left: 10px;
+header .logo-tip h1 {
+  font-weight: 600;
+  color: #3a404e;
+  margin-left: 10px;
 }
 
-header .logo{
-    width: 140px;
+header .logo {
+  width: 140px;
 }
 
-header .content .nav-bar ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    list-style-type: none;
+/* Nav bar */
+
+header .content .nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
 }
 
-header .content .nav-bar ul a{
-    text-decoration: none;
-    font-weight: 500;
-    color: #667085;
+header .content .nav-bar ul a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #667085;
 }
 
-header .nav-bar li{
-    color: #667085;
-    font-weight: 600;
-    margin: 0 32px; 
+header .nav-bar li {
+  color: #667085;
+  font-weight: 600;
+  margin: 0 32px;
 }
 
-header .buttons a{
-    text-decoration: none;
-    color: #667085;
-    font-weight: 600;
-    margin-right: 10px;
+header .buttons a {
+  text-decoration: none;
+  color: #667085;
+  font-weight: 600;
+  margin-right: 10px;
 }
 
-header .buttons .bttn{
-    padding: 15px 20px;
-    color: #fff;
-    background-color: #8E2424;
-    border-radius: 10px;
-    border:none;
-    cursor: pointer;
+header .buttons .bttn {
+  padding: 15px 20px;
+  color: #fff;
+  background-color: #8e2424;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 
-header .container-about {
+/* About */
+
+.container-about {
   width: 100%;
 }
 
-header .content-about{
+.content-about {
   width: 100%;
-  margin: auto;
   padding: 96px 0;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
 }
 
-header .content-about span{
-  color: #8E2424;
+.content-about span {
+  color: #8e2424;
   font-weight: 600;
 }
 
-header .content-about h1{
+.content-about h1 {
   color: #000;
   font-size: 48px;
   font-weight: 600;
-  margin-bottom: 36px;
+  margin: 36px 0 24px;
 }
 
-
-header .content-about p{
+.content-about p {
   color: #667085;
   font-weight: 500;
   width: 791px;
   margin: auto;
 }
 
-header .container-about .metrics{
+/* Metrics */
+
+.container-about .metrics {
   width: 100%;
-  margin: auto;
   padding: 0 112px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 25px;
 }
 
-header .container-about .metrics .box{
+.container-about .metrics .box {
   width: 280px;
 }
 
-header .container-about .metrics .box .number{
-  color: #8E2424;
+.container-about .metrics .box .number {
+  color: #8e2424;
   font-weight: 600;
   font-size: 60px;
 }
 
-header .container-about .metrics .box p:nth-child(2){
+.container-about .metrics .box p:nth-child(2) {
   color: #101828;
   font-weight: 600;
   margin: 15px 0 10px 0;
 }
 
-header .container-about .metrics .box p:nth-child(3){
+.container-about .metrics .box p:nth-child(3) {
   color: #667085;
   font-weight: 500;
   line-height: 25px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-size: 14px;
   word-break: keep-all;
+}
+
+/* Work and img */
+
+.works {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 96px 0;
+}
+
+.works .container-search{
+  width: 80%;
+  text-align: center;
+  margin-bottom: 96px;
+}
+
+.works .container-search .head{
+  color: #8E2424;
+  background-color:#8E24240D;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.works .container-search p{
+  margin: 20px 0;
+}
+
+.works .container-search .header p:nth-child(2){
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.works .container-search .header p:nth-child(3){
+  color: #667085;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.works .container-search img{
+  margin-top: 65px;
+}
+
+.works .jobs{
+  width: 50%;
+}
+
+.works .jobs .group{
+  margin-bottom: 36px;
+}
+
+.works .jobs .group .title{
+  font-weight: 600;
+}
+
+.works .jobs .group .job{
+  width: 100%;
+  border: 1px solid #EAECF0;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.works .jobs .group .job p{
+  margin-right: 24px;
+  color: #667085;
+  font-weight: 500;
+}
+.works .jobs .group .job p:nth-child(1){
+  width: 100%;
+  font-weight: 600;
+  margin-bottom: 32px;
+  color: #000;
 }
