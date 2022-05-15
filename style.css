@@ -262,6 +262,6 @@ header .buttons .bttn {
 }
 
 .depoimentos .container .user-comment p:nth-child(2){
-  color: #8E2424; 
+  color: #000;
   font-weight: 600;
 }
