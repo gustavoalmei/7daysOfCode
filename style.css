@@ -80,6 +80,16 @@ header .buttons .bttn {
   cursor: pointer;
 }
 
+/* span head all container */
+
+.head{
+  color: #8E2424;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
 /* About */
 
 .container-about {
@@ -90,11 +100,6 @@ header .buttons .bttn {
   width: 100%;
   padding: 96px 0;
   text-align: center;
-}
-
-.content-about span {
-  color: #8e2424;
-  font-weight: 600;
 }
 
 .content-about h1 {
@@ -226,4 +231,37 @@ header .buttons .bttn {
   font-weight: 600;
   margin-bottom: 32px;
   color: #000;
+}
+
+.depoimentos{
+  width: 100%;
+  padding: 96px 112px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.depoimentos .container{
+  width: 90%;
+  text-align: center;
+  padding: 64px;
+  background-color: #C3191908;
+  border-radius: 15px;
+}
+
+.depoimentos .container .header p{
+  margin: 16px 0 36px 0;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.depoimentos .container .user-comment p{
+  margin:5px 0;
+  color: #667085;
+}
+
+.depoimentos .container .user-comment p:nth-child(2){
+  color: #8E2424; 
+  font-weight: 600;
 }
