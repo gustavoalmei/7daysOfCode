@@ -7,6 +7,6 @@
 - Dia 4:heavy_check_mark:
 - Dia 5 :heavy_check_mark:
 - Dia 6 :heavy_check_mark:
-- Dia 7
+- Dia 7 :heavy_check_mark:
 
 Feito com o :heart: e muito :coffee:.
