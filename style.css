@@ -71,7 +71,9 @@ header .buttons a {
   margin-right: 10px;
 }
 
-header .buttons .bttn {
+/* Buttons */
+
+.bttn {
   padding: 15px 20px;
   color: #fff;
   background-color: #8e2424;
@@ -264,4 +266,19 @@ header .buttons .bttn {
 .depoimentos .container .user-comment p:nth-child(2){
   color: #000;
   font-weight: 600;
+}
+
+footer{
+  width: 100%;
+}
+
+footer .container{
+  width: 50%;
+  padding: 96px 0;
+  margin: auto;
+  text-align: center;
+}
+
+footer form span{
+  font-size: 36px;
 }
