@@ -270,6 +270,7 @@ header .buttons a {
 
 footer{
   width: 100%;
+  background-color: #F9FAFB;
 }
 
 footer .container{
@@ -279,6 +280,32 @@ footer .container{
   text-align: center;
 }
 
-footer form span{
+footer .container span{
   font-size: 36px;
+  font-weight: 500;
+}
+
+footer .container p{
+  color: #667085;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px;
+}
+
+footer form{
+  margin: 20px;
+}
+
+footer form input{
+  margin-right: 16px;
+  border-radius: 8px;
+  border: 1px solid #D0D5DD;
+  padding: 12px;
+}
+
+footer .copy{
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 12px;
 }

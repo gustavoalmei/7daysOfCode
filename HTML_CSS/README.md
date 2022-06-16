@@ -4,7 +4,7 @@
 - Dia 1 :heavy_check_mark:
 - Dia 2 :heavy_check_mark:
 - Dia 3 :heavy_check_mark:
-- Dia 4:heavy_check_mark:
+- Dia 4 :heavy_check_mark:
 - Dia 5 :heavy_check_mark:
 - Dia 6 :heavy_check_mark:
 - Dia 7 :heavy_check_mark:
